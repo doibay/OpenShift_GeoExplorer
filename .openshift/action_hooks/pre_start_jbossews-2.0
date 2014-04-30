@@ -1,0 +1,2 @@
+export CATALINA_OPTS=-DGEOEXPLORER_DATA=${OPENSHIFT_DATA_DIR}geoexplorer_data
+

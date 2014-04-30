@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if ! [ -d "$OPENSHIFT_DATA_DIR/geoexplorer_data"  ]; then
+  cp -r $OPENSHIFT_REPO_DIR/geoexplorer_data/ $OPENSHIFT_DATA_DIR/
+fi
